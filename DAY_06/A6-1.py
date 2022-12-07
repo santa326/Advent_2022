@@ -23,11 +23,15 @@ def has_duplicates(lst):
 
 #print(A[0].getC))
 
+Answer = 0
 Unique_len = 4
 for j in range(len(input)-Unique_len):
     C = create_list(input, j,Unique_len)
     if has_duplicates(C) is True:
         j=j+1
     else:
-        print(j+Unique_len)
-        print(C)
+        if Answer == 0:
+            Answer = j+Unique_len
+            
+            
+print(Answer)
