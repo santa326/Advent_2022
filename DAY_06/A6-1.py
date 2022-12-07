@@ -24,6 +24,8 @@ def has_duplicates(lst):
 #print(A[0].getC))
 
 Answer = 0
+
+#change this from 4 to 14 for second question
 Unique_len = 4
 for j in range(len(input)-Unique_len):
     C = create_list(input, j,Unique_len)
