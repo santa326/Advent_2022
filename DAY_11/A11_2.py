@@ -102,7 +102,7 @@ for monk in Summary:
     count.append(0)
 
 
-#We will use this number to get quotient . Since all the check are primes this will not affect .mulyply all the primes in line 4th and add 1. This will make sure if the base number was didvisible by a prime 
+#We will use this number to get quotient . Since all the check are primes this will not affect .mulyply all the primes in line 4th. When X/magic number the divisibily test willl yield the same result always. 
 magic_number = 1
 for magic in Summary:
     magic_number = magic_number*magic[3]
